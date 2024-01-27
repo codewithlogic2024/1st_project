@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cardItem {
+  transition: 0.3s;
+}
+.cardContainer:hover > :not(:hover) {
+  opacity: 0.4;
+}
+
+/* .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+} */
+.blogDetails {
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+.blogDetails p {
+  text-align: left;
+}
+.blogDetails ul {
+  text-align: left;
+  /* list-style: decimal; */
+}
+.blogDetails ol {
+  text-align: left;
+  /* list-style: decimal; */
+}
+.blogDetails li {
+  margin-left: 2rem;
+  text-align: left;
+}
+
